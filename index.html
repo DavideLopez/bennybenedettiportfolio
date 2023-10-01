@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- SCRIPT BOOTSTRAP CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ICONA  -->
+  <link rel="icon" href="./img/topicon.png" type="image/x-icon" />
+  <!-- LINK CSS -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <title>Benedetta Benedetti - Seamstress</title>
+</head>
+
+<body>
+  <!-- TOP NAVBAR -->
+  <div id="translateButtonWrapper">
+    <p class="lang">Switch Language</p><i class='bx bxs-right-arrow' style="color: #fff; margin: 0 5px; font-size: 10px;"></i>
+    <button id="translateButton"><img src="./img/italy.png" alt="italian" style="height: 25px;"> ITA</button>
+  </div>
+
+  <nav class="navbar d-flex">
+    <img src="./img/firma2.png" alt="signature" class="img-fluid sign" max-width="500px">
+    <img src="./img/rightlogo2.png" alt="logo" class="img-fluid roselogo" width="200px" id="reloadPageImage"
+      style="cursor: pointer;">
+  </nav>
+
+  <!-- JUMBOTRON -->
+  <div class="jumbotron d-flex">
+    <div class="container">
+      <div class="card container d-flex">
+        <div class="content-container">
+          <div class="social-buttons">
+            <a href="mailto:elisabettabenedetti90@gmail.com" onclick="window.open(this.href, '_blank'); return false;"
+              class="last"><i class='bx bx-envelope'></i></a>
+            <a href="https://wa.me/+393489705481" target="_blank" class="second"><i class='bx bxl-whatsapp'></i></a>
+            <a href="storage/Benny_CV_Eng.pdf" id="downloadLink" target="_blank" class="first"><i
+                class='bx bxs-download'></i></a>
+          </div>
+          <div class="avatar">
+            <img src="./img/WhatsApp Image 2023-09-20.jpg" class="card-img-top" alt="avatar">
+          </div>
+          <div class="about-me container text">
+            <h1 class="about-title">About Me</h1>
+            <span class="white-line"></span>
+            <p class="lead text-light">Hi! My Name is Benedetta, I was born in 1987 and I am a Seamstress living in
+              Rome, I studied at
+              the Fashion and
+              Costume Academy, I worked for Trussardi and currently, since 3 years, for the Rome Opera House, My biggest passion and my love.
+              I also create works like Pants, Capes, and Dress, for myself, and Theatrical performances.
+              If you want to contact me, or download my CV, just click on the Buttons!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container pre-gallery">
+    <h3 class="slideleft">Here you can admire some of my Works!</h3>
+    <h4 class="slideright">Sketches, Dress and Make-Up made by Me</h4>
+  </div>
+
+  <!-- IMAGES -->
+
+  <div class="container">
+    <div class="heading">
+      <h3>Photo <span>Gallery</span>
+      </h3>
+      <span class="white-line"></span>
+    </div>
+    <div class="box">
+      <div class="dream">
+        <img src="./img/1.jpg" alt="">
+        <img src="./img/2.jpg" alt="" class="hidden">
+        <img src="./img/3.jpg" alt="" class="hidden">
+        <img src="./img/4.jpg" alt="" class="hidden">
+        <img src="./img/5.jpg" alt="" class="hidden">
+        <img src="./img/6.jpg" alt="" class="hidden">
+      </div>
+
+      <div class="dream">
+        <img src="./img/7.jpg" alt="">
+        <img src="./img/8.jpg" alt="" class="hidden">
+        <img src="./img/9.jpg" alt="" class="hidden">
+        <img src="./img/10.jpg" alt="" class="hidden">
+        <img src="./img/11.jpg" alt="" class="hidden">
+        <img src="./img/12.jpg" alt="" class="hidden">
+      </div>
+
+      <div class="dream">
+        <img src="./img/13.jpg" alt="">
+        <img src="./img/14.jpg" alt="" class="hidden">
+        <img src="./img/15.jpg" alt="" class="hidden">
+        <img src="./img/16.jpg" alt="" class="hidden">
+        <img src="./img/17.jpg" alt="" class="hidden">
+      </div>
+    </div>
+
+    <div>
+      <button class="btn-load" id="loadMore">Show More</button>
+    </div>
+
+    <!-- SCROLL UP  -->
+    <div class="scroll">
+      <span class="scroll-text">Return to Top</span>
+    </div>
+    <div class="scroll-to-top" id="scrollToTop">
+      <i class='bx bx-up-arrow-alt'></i>
+  </div>
+
+    <!-- FOOTER -->
+    <footer class="text-center text-lg-start">
+      <div class="text-center p-3">
+        <p class="text-light">© 2023 Benedetta Benedetti - Seamstress - Costume Designer | <span class="developer"> Made by <a
+          href="https://www.linkedin.com/in/davide-lopez/">Davide Lopez Web Developer</a></span></p>
+      </div>
+    </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
